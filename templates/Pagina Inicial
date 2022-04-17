@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Página Inicial</title>
+    </head>
+<body>
+
+<h1><span style="color: #000000; background-color: #cc99ff;"><strong>&nbsp;<img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="perfil" width="26" height="26" />{{ nome}}&nbsp;</strong></span></h1>
+<p>{{saldo}}</p>
+<p>&nbsp;</p>
+<p><a href="Configuracoes">Configurações</a></p>
+<p><a href="Sala Virtual">Entrar em uma sala</a></p>
+<p><a href="Conversao">Converter um áudio para uma cifra</a></p>
+<p><a href="Comprar Moedas">Comprar mais Moedas</a></p>
+
+
+
+</body>
+
+</html>
