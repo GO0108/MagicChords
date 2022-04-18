@@ -1,28 +1,21 @@
-
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <title>Sala Virtual</title>
-</head>
-
+    <head>
+        <meta charset='utf-8'>
+        <title>Sala Virtual</title>
+    </head>
 <body>
 
-<h1><span style="color: #000000; background-color: #cc99ff;"><strong>&nbsp;<img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="perfil" width="26" height="26" />{{ nome}}</strong></span></h1>
-<div> 
-</div>
-<p>{{saldo}}</p>
-<p>{{Vídeo pessoa 1}}</p>
-<p>{{Vídeo pessoa 2}}</p>
-<p><button type="button">Ativar câmera</button></p>
-<p><button class="open-button">Chat</button></p>
-<div id="myForm" class="chat-popup"><form class="form-container" action="/action_page.php">
-<h1>Chat</h1>
-<label for="msg"><strong>Message</strong></label> <textarea name="msg" required="" placeholder="Type message.."></textarea> <button class="btn" type="submit">Send</button> <button class="btn cancel" type="button">Close</button></form></div>
+<h1><span style="color: #000000; background-color: #cc99ff;"><strong>&nbsp;<img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="perfil" width="26" height="26" />{{ email }}&nbsp;</strong></span></h1>
+<p>saldo: {{ saldo }}</p>
+<p>&nbsp;</p>
 
- 
-<p><br /><a href="inicial">Voltar</a> 
-  
+<p>{{Vídeo1}}</p>
+<p>{{Vídeo2}}</p>
+
+<p><button type="button">Ativar c&acirc;mera</button></p>
+<p><button type="button">Chat</button></p>
+<p><a href="configuracao">Configura&ccedil;&otilde;es</a></p>
 </body>
+
 </html>
