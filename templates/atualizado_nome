@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Alterar senha</title>
+    </head>
+    <body>
+        <p>Seu nome foi atualizado</p>
+        <p>Nova senha: {{senha}}</p>
+        <a href="configuracao">Voltar</a>
+</body>
+</html>
